@@ -1,0 +1,6 @@
+#requirements.txt
+flask
+zappa
+pandas
+scikit-learn
+numpy

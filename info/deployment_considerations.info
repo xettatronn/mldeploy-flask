@@ -1,0 +1,4 @@
+per a brief overview of design considerations last week:
+    1. API endpoint access. In order to produce operational lift relatively quickly and respond to changes, access via APIs is critical
+    2. serverless configuration. to best scale the model's use/infrastructure  in accordance with demand (i.e. lambda)
+    3. predictable deployment. obviously terraform wins here

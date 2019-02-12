@@ -1,11 +1,9 @@
-# Dependencies
 from flask import Flask, request, jsonify
 from sklearn.externals import joblib
 import traceback
 import pandas as pd
 import numpy as np
 
-# Your API definition
 app = Flask(__name__)
 
 @app.route('/predict', methods=['POST'])

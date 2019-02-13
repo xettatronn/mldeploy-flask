@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 
-# Load the dataset in a dataframe object and include only four features as mentioned
+# Load the dataset in a dataframe object
 url = "https://s3.amazonaws.com/python-ml-api/train.csv"
 df = pd.read_csv(url)
 include = ['Age', 'Sex', 'Embarked', 'Survived'] # Only four features
